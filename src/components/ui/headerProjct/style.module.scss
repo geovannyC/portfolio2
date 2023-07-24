@@ -1,0 +1,11 @@
+@import "../../../assets/global.scss";
+.container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top:  12%;
+  margin-right:  12px;
+  @include xl {
+    margin-top:  84px;
+    margin-right:  84px;
+  }
+}

@@ -1,0 +1,11 @@
+@import "../../../assets/global.scss";
+.generalContainer {
+  height: 100%;
+  width: 40%;
+  display: none;
+  align-items: flex-end;
+  gap: 10%;
+  @include xl {
+    display: flex;
+  }
+}

@@ -1,0 +1,93 @@
+@import "../../assets/global.scss";
+.generalContainer {
+  width: 100%;
+  height: 100%;
+  @include xl {
+    height: 150%;
+  }
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.tileContainers {
+  width: 250%;
+  @include xl {
+    width: 180%;
+  }
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  @include xl {
+    justify-content: space-around;
+  }
+  transform: rotate(-40.6deg);
+}
+.containerAnimated {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  position: absolute;
+  width: max-content;
+  width: 100%;
+  gap: 5%;
+  color: var(--main-text-color-dark-font-primary);
+}
+.primary {
+  animation: primary 13s linear infinite;
+}
+
+.secondary {
+  animation: secondary 13s linear infinite;
+}
+
+@keyframes primary {
+  from {
+    left: 0%;
+  }
+  to {
+    left: -100%;
+  }
+}
+
+@keyframes secondary {
+  from {
+    left: 100%;
+  }
+  to {
+    left: 0%;
+  }
+}
+.tile {
+  display: flex;
+  width: max-content;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--main-elements-color-cream);
+  overflow: hidden;
+  white-space: nowrap;
+}
+.backTile {
+  display: flex;
+  position: absolute;
+  height: 7%;
+  @include xl {
+    height: 10%;
+  }
+  width: 100%;
+  background-color: var(--main-elements-color-cream);
+}
+.titleDiagonalContent {
+  padding-top: 19px;
+  padding-left: 19px;
+  @include xl {
+    padding-top: 45px;
+    padding-left: 45px;
+  }
+  width: 100%;
+  height: auto;
+  display: flex;
+  color: var(--main-text-color-secondary);
+}

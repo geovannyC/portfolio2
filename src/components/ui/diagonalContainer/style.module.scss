@@ -1,0 +1,68 @@
+@import "../../../assets/global.scss";
+
+.backHideContainer {
+  display: flex;
+  width: 60vh;
+  height: 100%;
+  left: calc(35%);
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+}
+.slopeEnd {
+  justify-content: center;
+  transform: rotate(50.6deg);
+  @include xl {
+    display: flex;
+  }
+  display: none;
+  height: 250%;
+  width: 100%;
+}
+.secondaryDiagonalContainer {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+.profilePicture {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background: gray;
+  @include xl {
+    width: 210px;
+    height: 210px;
+  }
+}
+.titleDiagonalContent {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-left: 60%;
+  padding-bottom: 50%;
+}
+.twoRowsContainer {
+  height: 100%;
+  display: grid;
+  grid-template-rows: 26% 1fr;
+}
+.cream {
+  background: linear-gradient(
+    to top,
+    var(--main-elements-color-cream) 50%,
+    var(--main-elements-color-gray) 100%
+  );
+}
+
+.diagonalContent {
+  color: var(--main-text-color-dark-font-primary);
+  transform: rotate(-50.6deg);
+}
+.primaryDiagonalContainer {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}

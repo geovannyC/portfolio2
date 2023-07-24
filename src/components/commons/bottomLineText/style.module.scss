@@ -1,0 +1,14 @@
+@import "../../../assets/global.scss";
+.container {
+  display: flex;
+  border-bottom: solid 3px var(--main-elements-color-gray);
+  padding-bottom: 18px;
+  @include xl {
+    border-bottom: solid 6px var(--main-elements-color-gray);
+  }
+}
+
+.text {
+  color: var(--main-text-color-primary);
+}
+

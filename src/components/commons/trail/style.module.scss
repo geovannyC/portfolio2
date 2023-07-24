@@ -1,0 +1,30 @@
+@import "../../../assets/global.scss";
+.trailsText {
+  position: relative;
+  color: var(--main-text-color-primary);
+  font-weight: bold;
+  padding: 0 0;
+  will-change: transform, opacity;
+  font-size: $h1smallsize;
+  @include xl {
+    padding: 0.4rem 0;
+    line-height: 80px;
+  }
+}
+.trailsText > div {
+  @include xl {
+    height: 110px;
+  }
+  height: 40px;
+  padding-right: 0.05em;
+  overflow: hidden;
+}
+
+.h1Size{
+  font-size: $h1smallsize;
+  letter-spacing: 0.23em;
+  @include xl {
+    font-size: $h1size;
+    letter-spacing: 0.4rem;
+  }
+}
