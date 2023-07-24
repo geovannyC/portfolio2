@@ -32,7 +32,9 @@
   height: 160px;
   border-radius: 50%;
   background: gray;
+  margin-bottom: 0%;
   @include xl {
+    margin-bottom: 10%;
     width: 210px;
     height: 210px;
   }

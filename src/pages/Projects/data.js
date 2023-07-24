@@ -91,7 +91,6 @@ const IMAGES4 = [
 export const projects = [
   {
     nameProject: "Banco General Rumiñahui Digital App",
-    link: "https://www.google.com/",
     images: IMAGES,
   },
   {
@@ -101,12 +100,10 @@ export const projects = [
   },
   {
     nameProject: "F1 Web App contest",
-    link: "https://orders.freshii.com/en",
     images: IMAGES3,
   },
   {
     nameProject: "SMarket personal project",
-    link: "https://orders.freshii.com/en",
     images: IMAGES4
   },
 ];

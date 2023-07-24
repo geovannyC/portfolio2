@@ -3,7 +3,7 @@ import styles from "./style.module.scss";
 
 const BtnPresable = ({ text, action }) => {
   return (
-    <div onClick={() => action()}>
+    <div className={styles.container} onClick={() => action()}>
       <pl className={styles.header}>{text}</pl>
     </div>
   );

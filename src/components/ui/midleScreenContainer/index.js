@@ -3,6 +3,7 @@ import { ParallaxLayer } from "@react-spring/parallax";
 import styles from "./style.module.scss";
 import SocialMedia from "../../commons/socialMedia";
 import { socialMediaData } from "../../data/socialMediaData";
+import Profile from "../../../assets/picProfile/profile_picture.jpeg";
 
 export const MidleScreenContainer = ({ onClick }) => {
   const id = useId();
@@ -11,7 +12,7 @@ export const MidleScreenContainer = ({ onClick }) => {
     <ParallaxLayer offset={0} speed={0.3} onClick={onClick}>
       <div className={styles.horiontalContainer}>
         <div className={styles.profileContainer}>
-          <div className={styles.profilePicture} />
+          <img src={Profile} className={styles.profilePicture} />
           <p>React Developer</p>
           <div className={styles.socialContainer}>
             {socialMediaData.map((element, index) => (

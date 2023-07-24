@@ -12,12 +12,14 @@ const Projects = ({ offset, onClick }) => {
     <ParallaxLayer
       offset={index + 1}
       speed={0.3}
-      onClick={()=>onClick(index + 2)}
+      onClick={() => onClick(index + 2)}
       key={id + index}
     >
       <div className={styles.generalContainer}>
         <div className={styles.generalContainerProjects}>
-          <HeaderProject text="View Project" />
+          <HeaderProject
+            element={project}
+          />
           <AutoSlider IMAGES={project.images} />
           <FooterProject text={project.nameProject} />
         </div>

@@ -1,5 +1,13 @@
 @import "../../../assets/global.scss";
-.header{
+.header {
   text-align: end;
   color: var(--main-text-color-primary);
+}
+.container {
+  cursor: pointer;
+  transition: 200ms;
+}
+.container:hover {
+  transform: scaleX(1.12) translateY(-8px);
+  transition: 200ms;
 }

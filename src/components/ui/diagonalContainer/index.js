@@ -1,6 +1,7 @@
 import React from "react";
 import { ParallaxLayer } from "@react-spring/parallax";
 import styles from "./style.module.scss";
+import Profile from "../../../assets/picProfile/profile_picture.jpeg";
 
 const DiagonalContainer = ({ gradient, onClick }) => {
   return (
@@ -17,7 +18,7 @@ const DiagonalContainer = ({ gradient, onClick }) => {
             </div>
             <div className={styles.diagonalContent}>
               <div className={styles.secondaryDiagonalContainer}>
-                <div className={styles.profilePicture} />
+                  <img src={Profile} className={styles.profilePicture} />
                 <p>React Developer</p>
               </div>
             </div>
