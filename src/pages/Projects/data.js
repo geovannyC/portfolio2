@@ -70,7 +70,7 @@ const IMAGES3 = [
 },
 {
     image: image25,
-    arrayText: ["IA", "Text", "Recognization"],
+    arrayText: ["AI", "Text", "Recognization"],
   },
 ];
 const IMAGES4 = [
