@@ -14,6 +14,10 @@ import image25 from "../../assets/projects/f1App/image25.png";
 import image31 from "../../assets/projects/softwareMarket/image31.png";
 import image32 from "../../assets/projects/softwareMarket/image32.png";
 import image33 from "../../assets/projects/softwareMarket/image33.png";
+import photo1Desktop from "../../assets/projects/pexApp/photo1Desktop.png";
+import desktop from "../../assets/projects/pexApp/2desktop.png";
+import mobile1 from "../../assets/projects/pexApp/mobile1.png";
+import mobile2 from "../../assets/projects/pexApp/mobile2.png";
 
 const IMAGES = [
   {
@@ -35,6 +39,24 @@ const IMAGES = [
   {
     image: image5,
     arrayText: ["APP", "Mobile", "BGR"],
+  },
+];
+const IMAGESPE = [
+  {
+    image: photo1Desktop,
+    arrayText: ["NextJs", "Redux"],
+  },
+  {
+    image: desktop,
+    arrayText: ["Best", "Optimization", "With Out", "CSS Libraries"],
+  },
+  {
+    image: mobile1,
+    arrayText: ["UI", "adaptative"],
+  },
+  {
+    image: mobile2,
+    arrayText: ["Individual", "Dinamic", "Data", "Management"],
   },
 ];
 const IMAGES2 = [
@@ -92,6 +114,11 @@ export const projects = [
   {
     nameProject: "Banco General Rumiñahui Digital App",
     images: IMAGES,
+  },
+  {
+    nameProject: "Planet Express EC",
+    link: "https://planetexpressec.netlify.app/",
+    images: IMAGESPE,
   },
   {
     nameProject: "FRESHII Inventory control system",
