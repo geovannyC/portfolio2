@@ -28,14 +28,14 @@ export default function App() {
     <div onWheel={onScroll} ref={pagesRef} className={styles.generalContainer}>
       <Parallax
         ref={parallax}
-        pages={7}
+        pages={8}
         horizontal={parseInt(windowWidth.current) >= 1300}
         className={styles.generalContainer}
       >
         <Principal offset={0} onClick={() => scroll(1)} />
         <Projects gradient="teal" onClick={(toPage) => scroll(toPage)} />
-        <Skils offset={5} onClick={(toPage) => scroll(toPage)} />
-        <Contact offset={6} onClick={(toPage) => scroll(toPage)} />
+        <Skils offset={6} onClick={(toPage) => scroll(toPage)} />
+        <Contact offset={7} onClick={(toPage) => scroll(toPage)} />
         {/* <Page offset={2} gradient="tomato" onClick={() => scroll(0)} /> */}
       </Parallax>
     </div>
