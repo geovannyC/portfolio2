@@ -1,9 +1,8 @@
-import Discord from "../../assets/icons/social_media/discord.svg";
 import Github from "../../assets/icons/social_media/github.svg";
 import Linkedin from "../../assets/icons/social_media/linkedin.svg";
-import DiscordDark from "../../assets/icons/social_media/discord_dark.svg";
 import GithubDark from "../../assets/icons/social_media/github_dark.svg";
 import LinkedinDark from "../../assets/icons/social_media/linkedin_dark.svg";
+import CodeSignal from "../../assets/icons/social_media/codesignal.svg";
 
 export const socialMediaData= [
     {
@@ -19,8 +18,9 @@ export const socialMediaData= [
         link: "https://github.com/geovannyC"
     },
     {
-        name: "Discord",
-        icon: Discord,
-        iconDark: DiscordDark,
+        name: "CodeSignal",
+        icon: CodeSignal,
+        iconDark: CodeSignal,
+        link: "https://app.codesignal.com/profile/geovanny_qka"
     }
 ]

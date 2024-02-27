@@ -36,7 +36,6 @@ export default function App() {
         <Projects gradient="teal" onClick={(toPage) => scroll(toPage)} />
         <Skils offset={6} onClick={(toPage) => scroll(toPage)} />
         <Contact offset={7} onClick={(toPage) => scroll(toPage)} />
-        {/* <Page offset={2} gradient="tomato" onClick={() => scroll(0)} /> */}
       </Parallax>
     </div>
   );

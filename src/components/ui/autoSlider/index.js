@@ -6,7 +6,6 @@ import {
   useSpringRef,
   animated,
   useTransition,
-  useSpring,
 } from "@react-spring/web";
 
 const AutoSlider = ({ IMAGES }) => {

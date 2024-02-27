@@ -18,6 +18,10 @@ import photo1Desktop from "../../assets/projects/pexApp/photo1Desktop.png";
 import desktop from "../../assets/projects/pexApp/2desktop.png";
 import mobile1 from "../../assets/projects/pexApp/mobile1.png";
 import mobile2 from "../../assets/projects/pexApp/mobile2.png";
+import planex from "../../assets/projects/planex/image.png";
+import planex2 from "../../assets/projects/planex/image2.png";
+import planex3 from "../../assets/projects/planex/image3.png";
+import planex4 from "../../assets/projects/planex/image4.png";
 
 const IMAGES = [
   {
@@ -40,6 +44,24 @@ const IMAGES = [
     image: image5,
     arrayText: ["APP", "Mobile", "BGR"],
   },
+];
+const IMAGESPLANEX = [
+  {
+    image: planex,
+    arrayText: ["React", "Next", "Redux", "Scss"],
+  },
+  {
+    image: planex2,
+    arrayText: ["Responsive", "WithOut", "External", "Libraries"],
+  },
+  {
+    image: planex3,
+    arrayText: ["Mobile", "Phablet", "Desktop", "Adaptative"],
+  },
+  {
+    image: planex4,
+    arrayText: ["Better", "Fast", "Modern Design"],
+  }
 ];
 const IMAGESPE = [
   {
@@ -111,6 +133,11 @@ const IMAGES4 = [
 ];
 
 export const projects = [
+  {
+    nameProject: "Planex App",
+    link: "https://planexec.netlify.app/",
+    images: IMAGESPLANEX,
+  },
   {
     nameProject: "Banco General Rumiñahui Digital App",
     images: IMAGES,
